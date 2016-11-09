@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_BREWERY" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Delete CivUniqueBuildingType="BUILDING_ARMORY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_BREWERY" Name="LOC_BUILDING_BREWERY_NAME" PrereqTech="TECH_MILITARY_ENGINEERING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_MILITARY" Maintenance="0" CitizenSlots="1"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_BREWERY" PrereqBuilding="BUILDING_BARRACKS"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_BREWERY" YieldType="YIELD_CULTURE" YieldChange="3"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_BREWERY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+</GameInfo>

@@ -17,8 +17,14 @@
       <Text>Gin Slinger</Text>
     </Row>
     <Row Tag="LOC_UNIT_GIN_SLINGER_DESCRIPTION" Language="en_US">
-      <Text>A Datlovian unique unit that replaces the slinger. Has +10 combat strength, but - as slingers are quickly replaced - must be taken advantage of quickly.</Text>
+      <Text>A Datlovian unique unit that replaces the slinger. Has +15 ranged combat strength, but - as slingers are quickly replaced - must be taken advantage of quickly.</Text>
     </Row>
+	<Row Tag="LOC_BUILDING_BREWERY_NAME" Language="en_US">
+		<Text>Gin Brewery</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BREWERY_DESCRIPTION" Language="en_US">
+		<Text>Where the mightiest gin in the world is made. Must be built in an encampment with a barracks and provides +3 culture and +2 Great General Points per turn.</Text>
+	</Row>
 	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GIN_SLINGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 	<Text>The mighty gin merchants of Datlof were forced to take up arms the only way they knew how when the Benians, Sjinians, and Parvians invaded. The gin slingers were the result.</Text>
 	</Row>
