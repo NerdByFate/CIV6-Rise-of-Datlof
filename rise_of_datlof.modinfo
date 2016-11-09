@@ -1,4 +1,4 @@
-<?xml version="0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="gGe88hb0-h255-e2b9-G8j2-Hc3j3BH0eG23" version="1">
 	<Properties>
 		<Name>DATLOF_TITLE</Name>
@@ -6,6 +6,24 @@
 		<Description>DATLOF_DESC</Description>
 		<Authors>DATLOF_AUTHOR</Authors>
 	</Properties>
+	<Components>
+		<UpdateDatabase id="DATLOF_COMPONENT">
+			<Items>
+				<File>RoD_Buildings.xml</File>
+				<File>RoD_Civilizations.xml</File>
+				<File>RoD_Colours.xml</File> <!--Done-->
+				<File>RoD_Gossip.xml</File>
+				<File>RoD_Leaders.xml</File> <!--Done-->
+				<File>RoD_PlayerColours.xml</File> <!--Done-->
+				<File>RoD_Units.xml</File> <!--Done-->
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="DATLOF_TEXT">
+			<Items>
+				<File>RoD_Text.xml</File> <!--Done-->
+			</Items>
+		</LocalizedText>
+	</Components>
 	<LocalizedText>
 		<Text id="DATLOF_TITLE">
 			<en_US>Rise of Datlof</en_US></Text>

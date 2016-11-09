@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Types>
+    <Row Type="UNIT_GIN_SLINGER" Kind="KIND_UNIT"/>
+  </Types>
+  <UnitAiInfos>
+    <Row UnitType="UNIT_GIN_SLINGER" AiType="UNITAI_RANGED"/>
+
+  </UnitAiInfos>
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_GIN_SLINGER" ReplacesUnitType="UNIT_SLINGER"/>
+  </UnitReplaces>
+  <Units>
+    <Row UnitType="UNIT_GIN_SLINGER" BaseMoves="2" Cost="40" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GIN_SLINGER_NAME" Description="LOC_UNIT_GIN_SLINGER_DESCRIPTION" PurchaseYield="YIELD_GOLD" Combat="20" RangedCombat="25" TraitType="TRAIT_CIVILIZATION_GIN_SLINGER"/>
+  </Units>
+</GameInfo>

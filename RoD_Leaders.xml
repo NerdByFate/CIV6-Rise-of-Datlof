@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_LEWIS_BRINDLEY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LAND_HUNGRY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_LEWIS_BRINDLEY" Name="LOC_LEADER_LEWIS_BRINDLEY_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_LEWIS_BRINDLEY" TraitType="TRAIT_LEADER_LAND_HUNGRY"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_LAND_HUNGRY" Name="LOC_TRAIT_LEADER_LAND_HUNGRY_NAME" Description="LOC_TRAIT_LEADER_LAND_HUNGRY_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_LAND_HUNGRY" ModifierId="TRAIT_COMBAT_BONUS_TWO_PLUS_CIVS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_TWO_PLUS_CIVS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_TWO_PLUS_CIVS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_TWO_PLUS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_TWO_PLUS_CIVS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>COMBAT_BONUS_TWO_PLUS_CIVS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_TWO_PLUS_CIVS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSet>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_OPPONENT_IS_TWO_PLUS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSet>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_OPPONENT_IS_TWO_PLUS</RequirementSetId>
+			<RequirementId>REQUIRES_OPPONENT_IS_TWO_PLUS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

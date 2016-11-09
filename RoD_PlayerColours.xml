@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<PlayerColors>
+			<Row>
+				<Type>LEADER_LEWIS_BRINDLEY</Type>
+				<Usage>Unique</Usage>
+				<PrimaryColor>COLOR_DATLOF_PRIMARY</PrimaryColor>
+				<SecondaryColor>COLOR_DATLOF_SECONDARY</SecondaryColor>
+				<TextColor>COLOR_PLAYER_GOLD_TEXT</TextColor>
+			</Row>
+	</PlayerColors>
+</GameInfo>
