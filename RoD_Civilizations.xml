@@ -2,19 +2,20 @@
 <GameInfo>
 	<Types>
 		<Row Type="CIVILIZATION_DATLOF" Kind="KIND_CIVILIZATION"/>
-   		<Row Type="TRAIT_CIVILIZATION_GIN_WARFARE" Kind="KIND_TRAIT" />
-		<Row Type="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER" Kind="KIND_TRAIT" />
+   		<Row Type="TRAIT_CIVILIZATION_GIN_WARFARE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_BREWERY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER" Kind="KIND_TRAIT"/>
 	</Types>
 	<Civilizations>
-		<Row CivilizationType="CIVILIZATION_DATLOF" Name="LOC_CIVILIZATION_DATLOF_NAME" Description="LOC_CIVILIZATION_DATLOF_DESCRIPTION" Adjective="LOC_CIVILIZATION_DATLOF_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EUROPEAN"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" Name="LOC_CIVILIZATION_DATLOF_NAME" Description="LOC_CIVILIZATION_DATLOF_DESCRIPTION" Adjective="LOC_CIVILIZATION_DATLOF_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>
   <CivilizationLeaders>
-    <Row CivilizationType="CIVILIZATION_DATLOF" LeaderType="LEADER_LEWIS_BRINDLEY" CapitalName="Datlof">
+    <Row CivilizationType="CIVILIZATION_DATLOF" LeaderType="LEADER_LEWIS_BRINDLEY" CapitalName="Datlof"/>
   </CivilizationLeaders>
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_GIN_WARFARE" Name="LOC_TRAIT_CIVILIZATION_GIN_WARFARE_NAME" Description="LOC_TRAIT_CIVILIZATION_GIN_WARFARE_DESCRIPTION"/>
-		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER" Name="LOC_UNIT_GIN_SLINGER_NAME" Description="LOC_UNIT_GIN_SLINGER_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BREWERY" Name="LOC_BUILDING_BREWERY_NAME" Description="LOC_BUILDING_BREWERY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER" Name="LOC_UNIT_GIN_SLINGER_NAME" Description="LOC_UNIT_GIN_SLINGER_DESCRIPTION"/>
 	</Traits>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_DATLOF" TraitType="TRAIT_CIVILIZATION_GIN_WARFARE"/>
@@ -37,9 +38,9 @@
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Honeydew HQ"/>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Nova Datlov"/>
 	</CityNames>
-	<StartBiasFeatures>
-		<Row CivilizationType="CIVILIZATION_DATLOF" FeatureType="FEATURE_PLAINS" Tier="1"/>
-	</StartBiasFeatures>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_DATLOF" TerrainType="TERRAIN_GRASS" Tier="1"/>
+	</StartBiasTerrains>
 	<StartBiasRivers>
 		<Row CivilizationType="CIVILIZATION_DATLOF" Tier="4"/>
 	</StartBiasRivers>
