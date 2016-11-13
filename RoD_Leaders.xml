@@ -22,7 +22,7 @@
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="LewisWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
-		<Row ListType="LewisCivics" Item="CIVIC_CRAFTSMANSHIP"/>
+		<Row ListType="LewisCivics" Item="CIVIC_MEDIEVAL_FAIRES"/>
 		<Row ListType="LewisCivics" Item="CIVIC_EARLY_EMPIRE"/>
 		<Row ListType="LewisCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
 		<Row ListType="LewisCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
@@ -45,12 +45,29 @@
 			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
 			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
 			<Name>ModifierId</Name>
+			<Value>COMBAT_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>+1 combat strength for all units at all times.</Value>
+		</Row>
 	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="COMBAT_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
 </GameInfo>

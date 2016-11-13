@@ -7,7 +7,7 @@
 		<Row CivUniqueBuildingType="BUILDING_BREWERY" ReplacesBuildingType="BUILDING_ARMORY"/>
 	</BuildingReplaces>
 	<Buildings>
-		<Row BuildingType="BUILDING_BREWERY" Name="LOC_BUILDING_BREWERY_NAME" Description="LOC_BUILDING_BREWERY_DESCRIPTION" PrereqTech="TECH_MILITARY_ENGINEERING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_CONQUEST" Maintenance="0" CitizenSlots="1"  TraitType="TRAIT_CIVILIZATION_BUILDING_BREWERY"/>
+		<Row BuildingType="BUILDING_BREWERY" Name="LOC_BUILDING_BREWERY_NAME" Description="LOC_BUILDING_BREWERY_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_CONQUEST" Maintenance="0" CitizenSlots="1"  TraitType="TRAIT_CIVILIZATION_BUILDING_BREWERY"/>
 	</Buildings>
 	<BuildingPrereqs>
 		<Row Building="BUILDING_BREWERY" PrereqBuilding="BUILDING_BARRACKS"/>
