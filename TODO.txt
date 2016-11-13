@@ -1,0 +1,10 @@
+1. Add Civ City-State Icon
+2. Rename "Datlovian Civilization" to "Republic of Datlof"
+3. Fix Leader Abilty
+4. Add images
+5. Add music (Kevin Macleod babby!):
+	Who Likes to Party - Kevin Macleod
+	Baba Yetu - Christopher Tin
+	All Rise for Datlof - The Yogscast & some others...
+	Alchemist's Tower - Kevin Macleod
+6. Profit
