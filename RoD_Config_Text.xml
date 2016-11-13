@@ -23,7 +23,7 @@
       <Text>Gin Slinger</Text>
     </Row>
     <Row Tag="LOC_UNIT_GIN_SLINGER_DESCRIPTION" Language="en_US">
-      <Text>A Datlovian unique unit that replaces the slinger. Has +15 [ICON_RangedStrength], but - as slingers are quickly replaced - must be taken advantage of quickly.</Text>
+      <Text>A Datlovian unique unit that replaces the slinger. Has +15 ranged [ICON_Strength], but - as slingers are quickly replaced - must be taken advantage of quickly.</Text>
     </Row>
 	<Row Tag="LOC_BUILDING_BREWERY_NAME" Language="en_US">
 		<Text>Gin Brewery</Text>
