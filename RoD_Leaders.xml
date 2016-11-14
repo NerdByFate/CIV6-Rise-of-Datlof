@@ -53,13 +53,13 @@
 	<ModifierArguments>
 		<Row>
 			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>COMBAT_BONUS_MODIFIER</Value>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
+			<Name>ModifierId</Name>
+			<Value>COMBAT_BONUS_MODIFIER</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>

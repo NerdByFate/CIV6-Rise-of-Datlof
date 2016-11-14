@@ -7,11 +7,11 @@
     <Row Tag="LOC_LEADER_LEWIS_BRINDLEY_NAME" Language="en_US">
 		<Text>Lewis Brindley</Text>
     </Row>
-	<Row Tag="LOC_TRAIT_CIVILIZATION_GIN_WARFARE_NAME" Language="en_US">
-		<Text>Gin Warfare</Text>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_LAST_STAND_NAME" Language="en_US">
+		<Text>Datlof's Last Stand</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_CIVILIZATION_GIN_WARFARE_DESCRIPTION" Language="en_US">
-		<Text>Can get a huge early military lead via the gin slingers.</Text>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_LAST_STAND_DESCRIPTION" Language="en_US">
+		<Text>+6 [ICON_Strength] when fighting in Datlovian territory.</Text>
     </Row>
 	<Row Tag="LOC_UNIT_GIN_SLINGER_NAME" Language="en_US">
 		<Text>Gin Slinger</Text>
@@ -57,6 +57,9 @@
 	</Row>
 	<Row Tag="LOC_PROMOTION_COMBAT_DESCRIPTION" Language="en_US">
 		<Text>+1 [ICON_Strength] for all units at all times.</Text>
+	</Row>
+	<Row Tag="LOC_PROMOTION_FRIENDLY_COMBAT_DESCRIPTION" Language="en_US">
+		<Text>+6 [ICON_Strength] when fighting in Datlovian territory.</Text>
 	</Row>
   </LocalizedText>
 </GameData>
