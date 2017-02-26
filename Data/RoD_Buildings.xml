@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_BREWERY" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_BREWERY" ReplacesBuildingType="BUILDING_ARMORY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_BREWERY" Name="LOC_BUILDING_BREWERY_NAME" Description="LOC_BUILDING_BREWERY_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_CONQUEST" Maintenance="0" CitizenSlots="1"  TraitType="TRAIT_CIVILIZATION_BUILDING_BREWERY"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_BREWERY" PrereqBuilding="BUILDING_BARRACKS"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_BREWERY" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_BREWERY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_BREWERY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+</GameInfo>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+		<Row Name="ICON_ATLAS_BRINDLEY" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Brindley32.dds"/>
+		<Row Name="ICON_ATLAS_BRINDLEY" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Brindley45.dds"/>
+		<Row Name="ICON_ATLAS_BRINDLEY" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Brindley50.dds"/>
+		<Row Name="ICON_ATLAS_BRINDLEY" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Brindley55.dds"/>
+		<Row Name="ICON_ATLAS_BRINDLEY" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Brindley64.dds"/>
+		<Row Name="ICON_ATLAS_BRINDLEY" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Brindley80.dds"/>
+		<Row Name="ICON_ATLAS_BRINDLEY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Brindley256.dds"/>
+		
+		<!--Civilization Icons-->
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas22.dds"/>
+	    <Row Name="ICON_ATLAS_DATLOF" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas30.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas36.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas44.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas45.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas48.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas50.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas64.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas80.dds"/>
+		<Row Name="ICON_ATLAS_DATLOF" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Datlof_Atlas256.dds"/>
+		
+		<!--Building Icons-->
+		<Row Name="ICON_ATLAS_BREWERY" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery32.dds"/>
+		<Row Name="ICON_ATLAS_BREWERY_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery32.dds"/>
+		<Row Name="ICON_ATLAS_BREWERY" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery38.dds"/>
+		<Row Name="ICON_ATLAS_BREWERY" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery50.dds"/>
+		<Row Name="ICON_ATLAS_BREWERY" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery80.dds"/>
+		<Row Name="ICON_ATLAS_BREWERY" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery128.dds"/>
+		<Row Name="ICON_ATLAS_BREWERY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery256.dds"/>
+		
+		<!--Unit Icons-->
+		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger32.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger32.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger38.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger50.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger80.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger256.dds"/>
+
+		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Sling22.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Sling32.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Sling32.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Sling50.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Sling80.dds"/>
+	</IconTextureAtlases>
+	
+	<IconDefinitions>
+		<!--Leader Icons-->
+		<Row Name="ICON_LEADER_LEWIS_BRINDLEY" Atlas="ICON_ATLAS_LEWIS_BRINDLEY" Index="0"/>
+		
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_DATLOF" Atlas="ICON_ATLAS_DATLOF" Index="0"/>
+		
+		<!--Building Icons-->
+		<Row Name="ICON_BUILDING_BREWERY" Atlas="ICON_ATLAS_BREWERY" Index="0"/>
+
+		<!--Unit Icons-->
+		<Row Name="ICON_UNIT_GIN_SLINGER" Atlas="ICON_ATLAS_GIN_SLINGER" Index="0"/>
+		<Row Name="ICON_UNIT_GIN_SLINGER" Atlas="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_GIN_SLINGER" Atlas="ICON_ATLAS_GIN_SLINGER_SYMBOL_BLACK" Index="0"/>
+	</IconDefinitions>
+</GameData>

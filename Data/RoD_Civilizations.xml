@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_DATLOF" Kind="KIND_CIVILIZATION"/>
+   		<Row Type="TRAIT_CIVILIZATION_LAST_STAND" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_BREWERY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_DATLOF" Name="LOC_CIVILIZATION_DATLOF_NAME" Description="LOC_CIVILIZATION_DATLOF_DESCRIPTION" Adjective="LOC_CIVILIZATION_DATLOF_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_DATLOF" LeaderType="LEADER_LEWIS_BRINDLEY" CapitalName="Datlof"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_LAST_STAND" Name="LOC_TRAIT_CIVILIZATION_LAST_STAND_NAME" Description="LOC_TRAIT_CIVILIZATION_LAST_STAND_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BREWERY" Name="LOC_BUILDING_BREWERY_NAME" Description="LOC_BUILDING_BREWERY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER" Name="LOC_UNIT_GIN_SLINGER_NAME" Description="LOC_UNIT_GIN_SLINGER_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_LAST_STAND" ModifierId="TRAIT_FRIENDLY_COMBAT_BONUS"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_DATLOF" TraitType="TRAIT_CIVILIZATION_LAST_STAND"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" TraitType="TRAIT_CIVILIZATION_BUILDING_BREWERY"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" TraitType="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER"/>
+	</CivilizationTraits>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_FRIENDLY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_FRIENDLY_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FRIENDLY_TERRITORY_COMBAT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>COMBAT_FRIENDLY_BONUS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FRIENDLY_COMBAT_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>COMBAT_FRIENDLY_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FRIENDLY_COMBAT_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>+6 combat strength when fighting in Datlovian territory.</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="COMBAT_FRIENDLY_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_FRIENDLY_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="My Bit"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Datlof"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Recherche"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Nottacity"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="St. Lewis"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Lewisbon"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Lewistanbul"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Port Lewis"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Lewislamabad"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Porco Rico"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Pigkeepsie"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Pig Island"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Honeydew HQ"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Nova Datlov"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_DATLOF" TerrainType="TERRAIN_GRASS" Tier="1"/>
+	</StartBiasTerrains>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_DATLOF" Tier="4"/>
+	</StartBiasRivers>
+</GameInfo>

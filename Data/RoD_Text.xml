@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_CIVILIZATION_DATLOF_NAME" Language="en_US">
+		<Text>Datlof</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_LEWIS_BRINDLEY_NAME" Language="en_US">
+		<Text>Lewis Brindley</Text>
+    </Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_LAST_STAND_NAME" Language="en_US">
+		<Text>Datlof's Last Stand</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_LAST_STAND_DESCRIPTION" Language="en_US">
+		<Text>+6 [ICON_Strength] when fighting in Datlovian territory.</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_GIN_SLINGER_NAME" Language="en_US">
+		<Text>Gin Slinger</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GIN_SLINGER_DESCRIPTION" Language="en_US">
+		<Text>A Datlovian unique unit that replaces the slinger. Has +15 ranged [ICON_Strength], but - as slingers are quickly replaced - must be taken advantage of quickly.</Text>
+    </Row>
+	<Row Tag="LOC_BUILDING_BREWERY_NAME" Language="en_US">
+		<Text>Gin Brewery</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BREWERY_DESCRIPTION" Language="en_US">
+		<Text>Where the mightiest gin in the world is made. Must be built in an encampment with a barracks and provides +3 [ICON_Culture] and +2 [ICON_GreatGeneral] Points per turn.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GIN_SLINGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Text>The mighty gin merchants of Datlof were forced to take up arms the only way they knew how when the Benians, Sjinians, and Parvians invaded. The gin slingers were the result.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_BREWERY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Text>In these Datlovian breweries the strongest gin in the world was made. Even through Datlof's darkest hours, these unique structures remained relevant.</Text>
+	</Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAND_HUNGRY_NAME" Language="en_US">
+		<Text>Land Hungry</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_LAND_HUNGRY_DESCRIPTION" Language="en_US">
+		<Text>Gains +1 [ICON_Strength] for all units at all times.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_DATLOF_DESCRIPTION" Language="en_US">
+		<Text>Republic of Datlof</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_LEWIS_BRINDLEY" Language="en_US">
+		<Text>Lewis Brindley's armies of gin warriors stood up to the greatest powers of the world. Although they eventually lost, they held out valiantly. Can you, Lewis Brindley, create a civilization to stand the test of time?</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LEWIS_BRINDLEY_TITLE" Language="en_US">
+		<Text>Chancellor</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LEWIS_BRINDLEY_SUBTITLE" Language="en_US">
+		<Text>Chancellor</Text>
+    </Row>			
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LEWIS_BRINDLEY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Text>The first and last leader of the Republic of Datlof. Maintained Datlovian sovereignty through Datlof's darkest hours.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DATLOF_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Text>The mighty Republic of Datlof was a thorn in the world's side all the way up until it was defeated. Led by Lewis Brindley, it is well considered to be the greatest civilization of all time.</Text>
+	</Row>
+	<Row Tag="LOC_PROMOTION_COMBAT_DESCRIPTION" Language="en_US">
+		<Text>+1 [ICON_Strength] for all units at all times.</Text>
+	</Row>
+	<Row Tag="LOC_PROMOTION_FRIENDLY_COMBAT_DESCRIPTION" Language="en_US">
+		<Text>+6 [ICON_Strength] when fighting in Datlovian territory.</Text>
+	</Row>
+  </LocalizedText>
+</GameData>

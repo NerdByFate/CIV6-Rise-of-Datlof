@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_LEWIS_BRINDLEY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LAND_HUNGRY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_LEWIS_BRINDLEY" Name="LOC_LEADER_LEWIS_BRINDLEY_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_LEWIS_BRINDLEY" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="LewisCivics"/>
+		<Row ListType="LewisTechs"/>
+		<Row ListType="LewisWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="LewisWonders" LeaderType="TRAIT_LEADER_LAND_HUNGRY" System="Buildings"/>
+		<Row ListType="LewisCivics" LeaderType="TRAIT_LEADER_LAND_HUNGRY" System="Civics"/>
+		<Row ListType="LewisTechs" LeaderType="TRAIT_LEADER_LAND_HUNGRY" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="LewisWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
+		<Row ListType="LewisCivics" Item="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row ListType="LewisCivics" Item="CIVIC_EARLY_EMPIRE"/>
+		<Row ListType="LewisCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="LewisCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row ListType="LewisCivics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="LewisCivics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="LewisTechs" Item="TECH_NUCLEAR_FUSION"/>
+		<Row ListType="LewisTechs" Item="TECH_NUCLEAR_FISSION"/>
+	</AiFavoredItems>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_LEWIS_BRINDLEY" TraitType="TRAIT_LEADER_LAND_HUNGRY"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_LAND_HUNGRY" Name="LOC_TRAIT_LEADER_LAND_HUNGRY_NAME" Description="LOC_TRAIT_LEADER_LAND_HUNGRY_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_LAND_HUNGRY" ModifierId="TRAIT_COMBAT_BONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>COMBAT_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>+1 combat strength for all units at all times.</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="COMBAT_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>
