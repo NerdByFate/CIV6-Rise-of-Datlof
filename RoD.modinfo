@@ -1,65 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Mod id="gGe88hb0-h255-e2b9-G8j2-Hc3j3BH0eG23" version="3">
-	<Properties>
-		<Name>LOC_DATLOF_TITLE</Name>
-		<Teaser>LOC_DATLOF_TEASER</Teaser>
-		<Description>LOC_DATLOF_DESC</Description>
-		<Authors>LOC_DATLOF_AUTHOR</Authors>
-	</Properties>
-	<Components>
-		<UpdateDatabase id="DATLOF_COMPONENT">
-			<Items>
-				<File>RoD_Buildings.xml</File>
-				<File>RoD_Civilizations.xml</File>
-				<File>RoD_Colours.xml</File>
-				<File>RoD_Gossip.xml</File>
-				<File>RoD_Leaders.xml</File>
-				<File>RoD_PlayerColours.xml</File>
-				<File>RoD_Units.xml</File>
-			</Items>
-		</UpdateDatabase>
-		<LocalizedText id="DATLOF_TEXT">
-			<Items>
-				<File>RoD_Text.xml</File>
-			</Items>
-		</LocalizedText>
-	</Components>
-	<Settings>
-		<Custom id="DATLOF_SETTING">
-			<Items>
-				<File>RoD_Config.xml</File>
-			</Items>
-		</Custom>
-		<LocalizedText id="DATLOF_SETTING_TEXT">
-			<Items>
-				<File>RoD_Config_Text.xml</File>
-			</Items>
-		</LocalizedText>
-	</Settings>
-	<LocalizedText>
-		<Text id="LOC_DATLOF_TITLE">
-			<en_US>Rise of Datlof</en_US>
-		</Text>
-		<Text id="LOC_DATLOF_TEASER">
-			<en_US>Pick up the Datlovian torch!</en_US>
-		</Text>
-		<Text id="LOC_DATLOF_DESC">
-			<en_US>A mod that adds the civilization of Datlof led by Lewis Brindley</en_US>
-		</Text>
-		<Text id="LOC_DATLOF_AUTHOR">
-			<en_US>NerdByFate</en_US>
-		</Text>
-	</LocalizedText>
-	<Files>
-		<File>RoD_Buildings.xml</File>
-		<File>RoD_Config.xml</File>
-		<File>RoD_Config_Text.xml</File>
-		<File>RoD_Civilizations.xml</File>
-		<File>RoD_Colours.xml</File>
-		<File>RoD_Gossip.xml</File>
-		<File>RoD_Leaders.xml</File>
-		<File>RoD_PlayerColours.xml</File>
-		<File>RoD_Text.xml</File>
-		<File>RoD_Units.xml</File>
-	</Files>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e9d776f1-09bf-4e16-a979-05a0c69093b1" version="1">
+  <Properties>
+    <Name>Civilization 6: Rise of Datlof</Name>
+    <Description>This mod for Civilization VI adds the nation of Datlof led by Lewis Brindley into the game to bravely attempt to rise once more. Can you build Datlof to stand the test of time?</Description>
+    <Teaser>Pick up the Datlovian Torch!</Teaser>
+    <Authors>NerdByFate</Authors>
+    <Homepage>https://forums.civfanatics.com/threads/civilization-6-rise-of-datlof.604674/</Homepage>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="DatlofCriteria" />
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/RoD_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Data/RoD_Config_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Data/RoD_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>RoD.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>DatlofCriteria</Criteria>
+      <File>Data/RoD_Buildings.xml</File>
+      <File>Data/RoD_Civilizations.xml</File>
+      <File>Data/RoD_Leaders.xml</File>
+      <File>Data/RoD_Units.xml</File>
+      <File>Data/RoD_Colours.xml</File>
+      <File>Data/RoD_PlayerColours.xml</File>
+      <File>Data/RoD_Gossip.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <Criteria>DatlofCriteria</Criteria>
+      <File>Data/RoD_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Criteria>DatlofCriteria</Criteria>
+      <File>Data/RoD_Config_Text.xml</File>
+      <File>Data/RoD_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <Criteria>DatlofCriteria</Criteria>
+      <File>RoD.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Data/RoD_Buildings.xml</File>
+    <File>Data/RoD_Civilizations.xml</File>
+    <File>Data/RoD_Colours.xml</File>
+    <File>Data/RoD_Config.xml</File>
+    <File>Data/RoD_Config_Text.xml</File>
+    <File>Data/RoD_Gossip.xml</File>
+    <File>Data/RoD_Icons.xml</File>
+    <File>Data/RoD_Leaders.xml</File>
+    <File>Data/RoD_PlayerColours.xml</File>
+    <File>Data/RoD_Text.xml</File>
+    <File>Data/RoD_Units.xml</File>
+    <File>TODO.txt</File>
+  </Files>
 </Mod>
