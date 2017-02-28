@@ -17,6 +17,130 @@
 			<m_EntryID text="Brindley80"/>
 			<m_ObjectName text="Brindley80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Brindley64"/>
+			<m_ObjectName text="Brindley64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brindley55"/>
+			<m_ObjectName text="Brindley55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brindley50"/>
+			<m_ObjectName text="Brindley50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brindley45"/>
+			<m_ObjectName text="Brindley45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brindley32"/>
+			<m_ObjectName text="Brindley32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas256"/>
+			<m_ObjectName text="Datlof_Atlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas80"/>
+			<m_ObjectName text="Datlof_Atlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas64"/>
+			<m_ObjectName text="Datlof_Atlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas50"/>
+			<m_ObjectName text="Datlof_Atlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas48"/>
+			<m_ObjectName text="Datlof_Atlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas45"/>
+			<m_ObjectName text="Datlof_Atlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas44"/>
+			<m_ObjectName text="Datlof_Atlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas36"/>
+			<m_ObjectName text="Datlof_Atlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas30"/>
+			<m_ObjectName text="Datlof_Atlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Datlof_Atlas22"/>
+			<m_ObjectName text="Datlof_Atlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gin_Slinger256"/>
+			<m_ObjectName text="Gin_Slinger256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gin_Slinger80"/>
+			<m_ObjectName text="Gin_Slinger80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gin_Slinger50"/>
+			<m_ObjectName text="Gin_Slinger50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gin_Slinger38"/>
+			<m_ObjectName text="Gin_Slinger38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gin_Slinger32"/>
+			<m_ObjectName text="Gin_Slinger32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sling256"/>
+			<m_ObjectName text="Sling256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sling80"/>
+			<m_ObjectName text="Sling80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sling50"/>
+			<m_ObjectName text="Sling50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sling32"/>
+			<m_ObjectName text="Sling32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sling22"/>
+			<m_ObjectName text="Sling22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brewery256"/>
+			<m_ObjectName text="Brewery256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brewery128"/>
+			<m_ObjectName text="Brewery128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brewery80"/>
+			<m_ObjectName text="Brewery80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brewery50"/>
+			<m_ObjectName text="Brewery50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brewery38"/>
+			<m_ObjectName text="Brewery38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brewery32"/>
+			<m_ObjectName text="Brewery32"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

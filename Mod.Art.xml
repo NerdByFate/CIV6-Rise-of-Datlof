@@ -550,6 +550,7 @@
 			<relativePackagePaths>
 				<Element text="UILeaders"/>
 				<Element text="LeaderBackgrounds"/>
+				<Element text="Leader_Lewis_Brindley"/>
 				<Element text="Icons"/>
 			</relativePackagePaths>
 		</Element>

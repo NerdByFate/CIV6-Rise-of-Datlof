@@ -70,4 +70,7 @@
 	<ModifierStrings>
 		<Row ModifierId="COMBAT_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_COMBAT_DESCRIPTION"/>
 	</ModifierStrings>
+	<DiplomacyInfo>
+		<Row Type="LEADER_LEWIS_BRINDLEY" BackgroundImage="ART_LEADER_LEWI.dds"/>
+	</DiplomacyInfo>
 </GameInfo>

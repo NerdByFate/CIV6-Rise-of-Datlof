@@ -30,10 +30,10 @@
 		<Row Name="ICON_ATLAS_BREWERY" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery80.dds"/>
 		<Row Name="ICON_ATLAS_BREWERY" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery128.dds"/>
 		<Row Name="ICON_ATLAS_BREWERY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Brewery256.dds"/>
-		
+
 		<!--Unit Icons-->
 		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger32.dds"/>
-		<Row Name="ICON_ATLAS_GIN_SLINGER_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger32.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Sling32.dds"/>
 		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger38.dds"/>
 		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger50.dds"/>
 		<Row Name="ICON_ATLAS_GIN_SLINGER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Gin_Slinger80.dds"/>
@@ -44,21 +44,22 @@
 		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Sling32.dds"/>
 		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Sling50.dds"/>
 		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Sling80.dds"/>
+		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Sling256.dds"/>
 	</IconTextureAtlases>
-	
+
 	<IconDefinitions>
 		<!--Leader Icons-->
-		<Row Name="ICON_LEADER_LEWIS_BRINDLEY" Atlas="ICON_ATLAS_LEWIS_BRINDLEY" Index="0"/>
-		
+		<Row Name="ICON_LEADER_LEWIS_BRINDLEY" Atlas="ICON_ATLAS_BRINDLEY" Index="0"/>
+
 		<!--Civilization Icons-->
 		<Row Name="ICON_CIVILIZATION_DATLOF" Atlas="ICON_ATLAS_DATLOF" Index="0"/>
-		
+
 		<!--Building Icons-->
 		<Row Name="ICON_BUILDING_BREWERY" Atlas="ICON_ATLAS_BREWERY" Index="0"/>
+		<Row Name="ICON_BUILDING_BREWERY_FOW" Atlas="ICON_ATLAS_BREWERY_FOW" Index="0"/>
 
 		<!--Unit Icons-->
-		<Row Name="ICON_UNIT_GIN_SLINGER" Atlas="ICON_ATLAS_GIN_SLINGER" Index="0"/>
 		<Row Name="ICON_UNIT_GIN_SLINGER" Atlas="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" Index="0"/>
-		<Row Name="ICON_UNIT_GIN_SLINGER" Atlas="ICON_ATLAS_GIN_SLINGER_SYMBOL_BLACK" Index="0"/>
+		<Row Name="ICON_UNIT_GIN_SLINGER_FOW" Atlas="ICON_ATLAS_GIN_SLINGER_FOW" Index="0"/>
 	</IconDefinitions>
 </GameData>

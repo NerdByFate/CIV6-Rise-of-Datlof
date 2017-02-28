@@ -3,7 +3,11 @@
 3. Fix Leader Abilty DONE
 4. Add Yield Icons DONE
 5. Add "Last Stand" Civilization Ability DONE
-6. Add Images
+6. Add Images: DONE
+	Leader Icons DONE
+	Civilization Icons DONE
+	Unit Icons DONE
+	Building Icons DONE
 7. Add Music (Kevin Macleod Babby!):
 	Who Likes to Party - Kevin Macleod DONE
 	Baba Yetu - Christopher Tin DONE
