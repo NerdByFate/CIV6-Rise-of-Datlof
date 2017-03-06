@@ -77,4 +77,10 @@
 	<StartBiasRivers>
 		<Row CivilizationType="CIVILIZATION_DATLOF" Tier="4"/>
 	</StartBiasRivers>
+	<StartPosition>
+		<Replace MapName="GiantEarth" Civilization="CIVILIZATION_DATLOF"    X="36" Y="65" />
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_DATLOF"    X="61" Y="49" />
+		<Replace MapName="LargestEarth" Civilization="CIVILIZATION_DATLOF"    X="47" Y="81" />
+		<Replace MapName="PlayEuropeAgain" Civilization="CIVILIZATION_DATLOF"    X="75" Y="44" />
+	</StartPosition>
 </GameInfo>
