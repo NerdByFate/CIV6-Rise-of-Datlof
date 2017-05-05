@@ -39,6 +39,7 @@
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_LAND_HUNGRY" ModifierId="TRAIT_COMBAT_BONUS"/>
+		<Row TraitType="TRAIT_LEADER_LAND_HUNGRY" ModifierId="TRAIT_SCIENCE_KILLS"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -48,6 +49,11 @@
 		<Row>
 			<ModifierId>COMBAT_BONUS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -65,6 +71,17 @@
 			<ModifierId>TRAIT_COMBAT_BONUS</ModifierId>
 			<Name>Description</Name>
 			<Value>+1 combat strength for all units at all times.</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_KILLS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_KILLS</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>

@@ -36,7 +36,6 @@
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FRIENDLY_TERRITORY_COMBAT</ModifierType>
 		</Row>
 		
-		<!--May have to use MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER to make this work-->
 		<Row>
 			<ModifierId>TRAIT_DATLOF_UNITMAINTENANCEDISCOUNT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
