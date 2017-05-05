@@ -12,7 +12,7 @@
 8. Fix Cleopatra Bug
 9. Add Temporary music
 10. Add other flavour .artdefs
-11. Modify "Datlof's Last Stand" (-2gpt maintenance)
+11. Modify "Datlof's Last Stand" (-2gpt maintenance) DONE
 12. Modify "Land Hungry" (10% border growth)
 13. Add "XCOM Squad" as a unique unit
 14. Add Real Music (Kevin Macleod Babby!):

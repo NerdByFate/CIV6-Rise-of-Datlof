@@ -19,6 +19,7 @@
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_LAST_STAND" ModifierId="TRAIT_FRIENDLY_COMBAT_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_LAST_STAND" ModifierId="TRAIT_DATLOF_UNITMAINTENANCEDISCOUNT"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_DATLOF" TraitType="TRAIT_CIVILIZATION_LAST_STAND"/>
@@ -33,6 +34,13 @@
 		<Row>
 			<ModifierId>COMBAT_FRIENDLY_BONUS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FRIENDLY_TERRITORY_COMBAT</ModifierType>
+		</Row>
+		
+		<!--May have to use MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER to make this work-->
+		<Row>
+			<ModifierId>TRAIT_DATLOF_UNITMAINTENANCEDISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
+			<SubjectRequirementSetId>DATLOF_HAS_CIVIC_MERCENARIES</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -51,10 +59,41 @@
 			<Name>Description</Name>
 			<Value>+6 combat strength when fighting in Datlovian territory.</Value>
 		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_DATLOF_UNITMAINTENANCEDISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="COMBAT_FRIENDLY_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_FRIENDLY_COMBAT_DESCRIPTION"/>
 	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DATLOF_HAS_CIVIC_MERCENARIES</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_DATLOF_HAS_MERCENARIES</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DATLOF_HAS_CIVIC_MERCENARIES</RequirementSetId>
+			<RequirementId>REQUIRES_DATLOF_HAS_MERCENARIES</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_DATLOF_HAS_MERCENARIES</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MERCENARIES</Value>
+		</Row>
+	</RequirementArguments>
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="My Bit"/>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Datlof"/>
@@ -62,6 +101,7 @@
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Nottacity"/>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="St. Lewis"/>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Lewisbon"/>
+		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Lewisiana"/>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Lewistanbul"/>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Port Lewis"/>
 		<Row CivilizationType="CIVILIZATION_DATLOF" CityName="Lewislamabad"/>
