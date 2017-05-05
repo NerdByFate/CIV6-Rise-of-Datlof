@@ -14,7 +14,9 @@
 10. Add other flavour .artdefs
 11. Modify "Datlof's Last Stand" (-2gpt maintenance) DONE
 12. Modify "Land Hungry" (Science kills) DONE
-13. Add "XCOM Squad" as a unique unit
+13. Add "XCOM Squad" as a unique unit DONE
+	XML Code DONE
+	Icons DONE
 14. Switch to semantic versioning (x.y ---> 1.x.y) DONE
 15. Add Real Music (Kevin Macleod Babby!):
 	Who Likes to Party - Kevin Macleod DONE

@@ -2,26 +2,125 @@
 <GameInfo>
   <Types>
     <Row Type="UNIT_GIN_SLINGER" Kind="KIND_UNIT"/>
+
+	<Row Type="UNIT_XCOM" Kind="KIND_UNIT"/>
+	<Row Type="XCOM_IGNORE_TERRAIN_COST" Kind="KIND_ABILITY"/>
+	<Row Type="XCOM_IGNORE_CROSSING_RIVERS_COST" Kind="KIND_ABILITY"/>
+	<Row Type="XCOM_MOVEMENT" Kind="KIND_ABILITY"/>
   </Types>
+  <Tags>
+	<Row Tag="CLASS_GIN_SLINGER" Vocabulary="ABILITY_CLASS"/>
+
+	<Row Tag="CLASS_XCOM" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
+  <TypeTags>
+	<Row Type="XCOM_IGNORE_TERRAIN_COST" Tag="CLASS_XCOM"/>
+	<Row Type="XCOM_IGNORE_CROSSING_RIVERS_COST" Tag="CLASS_XCOM"/>
+	<Row Type="XCOM_MOVEMENT" Tag="CLASS_XCOM"/>
+	 
+	<Row Type="UNIT_GIN_SLINGER" Tag="CLASS_RANGED"/>
+	<Row Type="UNIT_GIN_SLINGER" Tag="CLASS_GIN_SLINGER"/>
+
+	<Row Type="UNIT_XCOM" Tag="CLASS_MELEE"/>
+	<Row Type="UNIT_XCOM" Tag="CLASS_XCOM"/>
+  </TypeTags>
   <UnitAiInfos>
     <Row UnitType="UNIT_GIN_SLINGER" AiType="UNITAI_COMBAT"/>
 	<Row UnitType="UNIT_GIN_SLINGER" AiType="UNITTYPE_RANGED"/>
 	<Row UnitType="UNIT_GIN_SLINGER" AiType="UNITTYPE_LAND_COMBAT"/>
+
+	<Row UnitType="UNIT_XCOM" AiType="UNITAI_COMBAT"/>
+	<Row UnitType="UNIT_XCOM" AiType="UNITAI_EXPLORE"/>
+	<Row UnitType="UNIT_XCOM" AiType="UNITTYPE_MELEE"/>
+	<Row UnitType="UNIT_XCOM" AiType="UNITTYPE_LAND_COMBAT"/>
   </UnitAiInfos>
   <UnitReplaces>
     <Row CivUniqueUnitType="UNIT_GIN_SLINGER" ReplacesUnitType="UNIT_SLINGER"/>
   </UnitReplaces>
   <Units>
     <Row UnitType="UNIT_GIN_SLINGER" BaseMoves="2" Cost="40" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" Name="LOC_UNIT_GIN_SLINGER_NAME" Description="LOC_UNIT_GIN_SLINGER_DESCRIPTION" PurchaseYield="YIELD_GOLD" Range="2" Combat="20" RangedCombat="30" TraitType="TRAIT_CIVILIZATION_UNIT_GIN_SLINGER"/>
+
+	<Row UnitType="UNIT_XCOM" BaseMoves="2" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_XCOM_NAME" Description="LOC_UNIT_XCOM_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="9" Combat="85" PrereqTech="TECH_NANOTECHNOLOGY" TraitType="TRAIT_CIVILIZATION_UNIT_XCOM"/>
   </Units>
+  <UnitAbilities>
+	<Row UnitAbilityType="XCOM_IGNORE_TERRAIN_COST" Name="LOC_ABILITY_XCOM_IGNORE_TERRAIN_COST_NAME" Description="LOC_ABILITY_XCOM_IGNORE_TERRAIN_COST_DESCRIPTION"/>
+	<Row UnitAbilityType="XCOM_IGNORE_CROSSING_RIVERS_COST" Name="LOC_ABILITY_XCOM_IGNORE_CROSSING_RIVERS_COST_NAME" Description="LOC_ABILITY_XCOM_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION"/>
+	<Row UnitAbilityType="XCOM_MOVEMENT" Name="LOC_ABILITY_XCOM_MOVEMENT_NAME" Description="LOC_ABILITY_XCOM_MOVEMENT_DESCRIPTION"/>
+  </UnitAbilities>
   <UnitUpgrades>
 	<Row Unit="UNIT_GIN_SLINGER" UpgradeUnit="UNIT_CROSSBOWMAN"/>
   </UnitUpgrades>
-  <Tags>
-	<Row Tag="CLASS_GIN_SLINGER" Vocabulary="ABILITY_CLASS"/>
-  </Tags>
-  <TypeTags>
-	<Row Type="UNIT_GIN_SLINGER" Tag="CLASS_RANGED"/>
-	<Row Type="UNIT_GIN_SLINGER" Tag="CLASS_GIN_SLINGER"/>
-  </TypeTags>
+  <UnitAbilityModifiers>
+	<Row>
+		<UnitAbilityType>XCOM_IGNORE_TERRAIN_COST</UnitAbilityType>
+		<ModifierId>MODIFIER_XCOM_IGNORE_TERRAIN_COST</ModifierId>
+	</Row>
+	<Row>
+		<UnitAbilityType>ABILITY_IGNORE_CROSSING_RIVERS_COST</UnitAbilityType>
+		<ModifierId>MODIFIER_XCOM_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+	</Row>
+	<Row>
+		<UnitAbilityType>XCOM_MOVEMENT</UnitAbilityType>
+		<ModifierId>XCOM_FASTER_FRIENDLY_TERRITORY</ModifierId>
+	</Row>
+  </UnitAbilityModifiers>
+  <Modifiers>
+	<Row>
+		<ModifierId>MODIFIER_XCOM_IGNORE_TERRAIN_COST</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+	</Row>
+	<Row>
+		<ModifierId>MODIFIER_XCOM_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
+	</Row>
+	<Row>
+		<ModifierId>XCOM_FASTER_FRIENDLY_TERRITORY</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		<SubjectRequirementSetId>XCOM_PLOT_IS_FRIENDLY_TERRITORY</SubjectRequirementSetId>
+	</Row>
+  </Modifiers>
+  <ModifierArguments>
+	<Row>
+		<ModifierId>MODIFIER_XCOM_IGNORE_TERRAIN_COST</ModifierId>
+		<Name>Ignore</Name>
+		<Value>true</Value>
+	</Row>
+	<Row>
+		<ModifierId>MODIFIER_XCOM_IGNORE_TERRAIN_COST</ModifierId>
+		<Name>Type</Name>
+		<Value>ALL</Value>
+	</Row>
+	<Row>
+		<ModifierId>MODIFIER_XCOM_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+		<Name>Ignore</Name>
+		<Value>true</Value>
+	</Row>
+	<Row>
+		<ModifierId>XCOM_FASTER_FRIENDLY_TERRITORY</ModifierId>
+		<Name>Amount</Name>
+		<Value>28</Value>
+	</Row>
+  </ModifierArguments>
+  <ModifierStrings>
+	<Row ModifierId="MODIFIER_XCOM_IGNORE_TERRAIN_COST" Context="Preview" Text="LOC_ABILITY_XCOM_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION"/>
+	<Row ModifierId="MODIFIER_XCOM_IGNORE_CROSSING_RIVERS_COST" Context="Preview" Text="LOC_ABILITY_XCOM_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION"/>
+  </ModifierStrings>
+  <RequirementSets>
+	<Row>
+		<RequirementSetId>XCOM_PLOT_IS_FRIENDLY_TERRITORY</RequirementSetId>
+		<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+	</Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+	<Row>
+		<RequirementSetId>XCOM_PLOT_IS_FRIENDLY_TERRITORY</RequirementSetId>
+		<RequirementId>UNIT_IN_FRIENDLY_TERRITORY_REQUIREMENT</RequirementId>
+	</Row>
+  </RequirementSetRequirements>
+  <Requirements>
+	<Row>
+		<RequirementId>UNIT_IN_FRIENDLY_TERRITORY_REQUIREMENT</RequirementId>
+		<RequirementType>REQUIREMENT_UNIT_IN_OWNER_TERRITORY</RequirementType>
+	</Row>
+  </Requirements>
 </GameInfo>

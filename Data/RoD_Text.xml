@@ -19,6 +19,33 @@
     <Row Tag="LOC_UNIT_GIN_SLINGER_DESCRIPTION" Language="en_US">
 		<Text>A Datlovian unique unit that replaces the slinger. Has +15 ranged [ICON_Strength], but - as slingers are quickly replaced - must be taken advantage of quickly.</Text>
     </Row>
+	<Row Tag="LOC_UNIT_XCOM_NAME" Language="en_US">
+		<Text>XCOM Squad</Text>
+	</Row>
+	<Row Tag="LOC_UNIT_XCOM_DESCRIPTION" Language="en_US">
+		<Text>A Datlovian unique unit that is unlocked with the "Nanotechnology" tech. Has 85 [ICON_Strength], ignores terrain/river crossing costs, and has 30 movement when starting a turn in friendly territory.</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_XCOM_IGNORE_TERRAIN_COST_NAME" Language="en_US">
+		<Text>XCOM Terrain Cost</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_XCOM_IGNORE_TERRAIN_COST_DESCRIPTION" Language="en_US">
+		<Text>As a unique ability, XCOM Squads ignore terrain cost.</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_XCOM_IGNORE_CROSSING_RIVERS_COST_NAME" Language="en_US">
+		<Text>XCOM Crossing Rivers Cost</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_XCOM_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION" Language="en_US">
+		<Text>As a unique ability, XCOM Squads ignore crossing rivers cost.</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_XCOM_MOVEMENT_NAME" Language="en_US">
+		<Text>XCOM Starting Turn Movement</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_XCOM_MOVEMENT_DESCRIPTION" Language="en_US">
+		<Text>As a unique ability, XCOM Squads gain 28 movement when starting a turn in friendly territory.</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_XCOM_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION" Language="en_US">
+		<Text>As a unique ability, XCOM Squads ignore terrain cost.</Text>
+	</Row>
 	<Row Tag="LOC_BUILDING_BREWERY_NAME" Language="en_US">
 		<Text>Gin Brewery</Text>
 	</Row>
@@ -27,6 +54,9 @@
 	</Row>
 	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GIN_SLINGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 		<Text>The mighty gin merchants of Datlof were forced to take up arms the only way they knew how when the Benians, Sjinians, and Parvians invaded. The gin slingers were the result.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XCOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Text>Recognizing the potential threat from Giant Death Robots, aliens, and other external threats, the XCOM Initiative was born to protect the populace from enemies known, and unknown.</Text>
 	</Row>
 	<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_BREWERY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 		<Text>In these Datlovian breweries the strongest gin in the world was made. Even through Datlof's darkest hours, these unique structures remained relevant.</Text>

@@ -45,6 +45,20 @@
 		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Sling50.dds"/>
 		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Sling80.dds"/>
 		<Row Name="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Sling256.dds"/>
+
+		<Row Name="ICON_ATLAS_XCOM" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Squad32.dds"/>
+		<Row Name="ICON_ATLAS_XCOM_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Xcom32.dds"/>
+		<Row Name="ICON_ATLAS_XCOM" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Squad38.dds"/>
+		<Row Name="ICON_ATLAS_XCOM" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Squad50.dds"/>
+		<Row Name="ICON_ATLAS_XCOM" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Squad80.dds"/>
+		<Row Name="ICON_ATLAS_XCOM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Squad256.dds"/>
+
+		<Row Name="ICON_ATLAS_XCOM_SYMBOL_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Xcom22.dds"/>
+		<Row Name="ICON_ATLAS_XCOM_SYMBOL_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Xcom32.dds"/>
+		<Row Name="ICON_ATLAS_XCOM_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Xcom32.dds"/>
+		<Row Name="ICON_ATLAS_XCOM_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Xcom50.dds"/>
+		<Row Name="ICON_ATLAS_XCOM_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Xcom80.dds"/>
+		<Row Name="ICON_ATLAS_XCOM_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Xcom256.dds"/>
 	</IconTextureAtlases>
 
 	<IconDefinitions>
@@ -61,5 +75,8 @@
 		<!--Unit Icons-->
 		<Row Name="ICON_UNIT_GIN_SLINGER" Atlas="ICON_ATLAS_GIN_SLINGER_SYMBOL_WHITE" Index="0"/>
 		<Row Name="ICON_UNIT_GIN_SLINGER_FOW" Atlas="ICON_ATLAS_GIN_SLINGER_FOW" Index="0"/>
+		
+		<Row Name="ICON_UNIT_XCOM" Atlas="ICON_ATLAS_XCOM_SYMBOL_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_XCOM_FOW" Atlas="ICON_ATLAS_XCOM_FOW" Index="0"/>
 	</IconDefinitions>
 </GameData>

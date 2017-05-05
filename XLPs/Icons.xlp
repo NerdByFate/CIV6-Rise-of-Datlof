@@ -141,6 +141,46 @@
 			<m_EntryID text="Brewery32"/>
 			<m_ObjectName text="Brewery32"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Squad256"/>
+			<m_ObjectName text="Squad256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Squad80"/>
+			<m_ObjectName text="Squad80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Squad50"/>
+			<m_ObjectName text="Squad50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Squad38"/>
+			<m_ObjectName text="Squad38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Squad32"/>
+			<m_ObjectName text="Squad32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Xcom256"/>
+			<m_ObjectName text="Xcom256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Xcom80"/>
+			<m_ObjectName text="Xcom80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Xcom50"/>
+			<m_ObjectName text="Xcom50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Xcom32"/>
+			<m_ObjectName text="Xcom32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Xcom22"/>
+			<m_ObjectName text="Xcom22"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
