@@ -8,7 +8,14 @@
 	Civilization Icons DONE
 	Unit Icons DONE
 	Building Icons DONE
-7. Add Music (Kevin Macleod Babby!):
+7. Make Gin Slingers upgradeable
+8. Fix Cleopatra Bug
+9. Add Temporary music
+10. Add other flavour .artdefs
+11. Modify "Datlof's Last Stand" (-2gpt maintenance)
+12. Modify "Land Hungry" (10% border growth)
+13. Add "XCOM Squad" as a unique unit
+14. Add Real Music (Kevin Macleod Babby!):
 	Who Likes to Party - Kevin Macleod DONE
 	Baba Yetu - Christopher Tin DONE
 	All Rise for Datlof - The Yogscast & some others... DONE
@@ -17,4 +24,4 @@
 	Gay Activity - Richardson Clive DONE
 	Euphemia - Area 11 DONE
 	All the Lights in the Sky - Area 11 DONE
-8. Profit
+15. Profit
