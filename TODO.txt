@@ -9,9 +9,9 @@
 	Unit Icons DONE
 	Building Icons DONE
 7. Make Gin Slingers upgradeable DONE
-8. Fix Cleopatra Bug
-9. Add Temporary music
-10. Add other flavour .artdefs
+8. Fix Cleopatra Bug DONE
+9. Add Temporary music DONE
+10. Add other flavour .artdefs DONE
 11. Modify "Datlof's Last Stand" (-2gpt maintenance) DONE
 12. Modify "Land Hungry" (Science kills) DONE
 13. Add "XCOM Squad" as a unique unit DONE
