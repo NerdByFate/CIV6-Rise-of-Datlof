@@ -28,3 +28,33 @@ end
 function Initialize()
     m_kPopupDialog = PopupDialog:new( "ModInGame" )
 end
+
+-----------------------------------------------------------------------------------------
+-- Override Audio Stop Events
+-----------------------------------------------------------------------------------------
+
+function OnEnterGame()   -- override the default callback once all the files are loaded...
+    ContextPtr:LookUpControl("/InGame/TopOptionsMenu/RestartButton"):RegisterCallback( Mouse.eLClick, OnRestartGame )   
+end
+
+function OnUIExitGame()
+    UI.PlaySound("Stop_Music_DATLOF");
+end
+
+function OnPlayerDefeatStopMusic( player, defeat, eventID)
+    print("Defeat Event Activated.");
+    UI.PlaySound("Stop_Music_DATLOF");
+end
+
+function OnTeamVictoryStopMusic(team, victory, eventID)
+    print("Victory Event Activated.");
+    UI.PlaySound("Stop_Music_DATLOF");
+end
+
+----------Events----------
+Events.LeaveGameComplete.Add(OnUIExitGame);
+Events.PlayerDefeat.Add(OnPlayerDefeatStopMusic);
+Events.TeamVictory.Add(OnTeamVictoryStopMusic);
+Events.LoadScreenClose.Add(OnEnterGame);
+
+Initialize();

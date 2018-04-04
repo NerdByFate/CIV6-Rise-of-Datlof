@@ -18,8 +18,7 @@
 	XML Code DONE
 	Icons DONE
 14. Switch to semantic versioning (x.y ---> 1.x.y) DONE
-15. Update for R&F
-16. Add Real Music (Kevin Macleod Babby!):
+15. Add Real Music (Kevin Macleod Babby!): DONE
 	Who Likes to Party - Kevin Macleod DONE
 	Baba Yetu - Christopher Tin DONE
 	All Rise for Datlof - The Yogscast & some others... DONE
@@ -28,4 +27,6 @@
 	Gay Activity - Richardson Clive DONE
 	Euphemia - Area 11 DONE
 	All the Lights in the Sky - Area 11 DONE
-17. Profit
+16. Update for R&F DONE
+17. Fix Real Music DONE
+18. Profit

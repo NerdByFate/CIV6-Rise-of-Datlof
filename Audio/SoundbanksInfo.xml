@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="278950506" Language="SFX">
+			<ShortName>All Rise For Datlof - Yogscast Civilization Tribute Song.wav</ShortName>
+			<Path>SFX\All Rise For Datlof - Yogscast Civilization Tribute Song_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="517240632" Language="SFX">
+			<ShortName>Area 11 - Euphemia.wav</ShortName>
+			<Path>SFX\Area 11 - Euphemia_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="581992333" Language="SFX">
+			<ShortName>Kevin MacLeodWho Likes to Party.wav</ShortName>
+			<Path>SFX\Kevin MacLeodWho Likes to Party_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="712147997" Language="SFX">
+			<ShortName>Exotic Toys - melodicpictures (Yogscast Spin).wav</ShortName>
+			<Path>SFX\Exotic Toys - melodicpictures (Yogscast Spin)_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="724367684" Language="SFX">
+			<ShortName>Area 11 - All The Lights In The Sky.wav</ShortName>
+			<Path>SFX\Area 11 - All The Lights In The Sky_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="733956287" Language="SFX">
+			<ShortName>Gay Activity - Clive Richardson.wav</ShortName>
+			<Path>SFX\Gay Activity - Clive Richardson_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="771715099" Language="SFX">
+			<ShortName>Kevin MacLeodAlchemists Tower.wav</ShortName>
+			<Path>SFX\Kevin MacLeodAlchemists Tower_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="887072627" Language="SFX">
+			<ShortName>Christopher Tin - Baba Yetu (Official Music Video).wav</ShortName>
+			<Path>SFX\Christopher Tin - Baba Yetu (Official Music Video)_4B8CC0C5.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1867768517" Language="SFX">
+			<ShortName>RiseofDatlof_SoundBank</ShortName>
+			<Path>RiseofDatlof_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1152510618" Name="Pause_Music_DATLOF"/>
+				<Event Id="3051887326" Name="Play_Leader_Music_DATLOF"/>
+				<Event Id="3170844800" Name="Play_Music_DATLOF"/>
+				<Event Id="3282285717" Name="Resume_Music_DATLOF"/>
+				<Event Id="710876936" Name="Start_Music_DATLOF"/>
+				<Event Id="2597170084" Name="Stop_Leader_Music_DATLOF"/>
+				<Event Id="722396354" Name="Stop_Music_DATLOF"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="278950506"/>
+				<File Id="517240632"/>
+				<File Id="581992333"/>
+				<File Id="712147997"/>
+				<File Id="724367684"/>
+				<File Id="733956287"/>
+				<File Id="771715099"/>
+				<File Id="887072627"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

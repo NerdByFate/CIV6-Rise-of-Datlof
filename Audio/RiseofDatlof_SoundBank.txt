@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	710876936	Start_Music_DATLOF			\Music\Start_Music_DATLOF	
+	722396354	Stop_Music_DATLOF			\Music\Stop_Music_DATLOF	
+	1152510618	Pause_Music_DATLOF			\Music\Pause_Music_DATLOF	
+	2597170084	Stop_Leader_Music_DATLOF			\Music\Stop_Leader_Music_DATLOF	
+	3051887326	Play_Leader_Music_DATLOF			\Music\Play_Leader_Music_DATLOF	
+	3170844800	Play_Music_DATLOF			\Music\Play_Music_DATLOF	
+	3282285717	Resume_Music_DATLOF			\Music\Resume_Music_DATLOF	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	278950506	05 All Rise for Datlof	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\All Rise For Datlof - Yogscast Civilization Tribute Song_4B8CC0C5.wem	278950506.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Medieval_Era_Music\RiseofDatlof_Medieval_Era_Leader_Music\05 All Rise for Datlof	
+	517240632	04 Euphemia	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\Area 11 - Euphemia_4B8CC0C5.wem	517240632.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Ancient_Era_Music\RiseofDatlof_Ancient_Era_Leader_Music_4\04 Euphemia	
+	581992333	08 Who Likes to Party	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\Kevin MacLeodWho Likes to Party_4B8CC0C5.wem	581992333.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Medieval_Era_Music\RiseofDatlof_Medieval_Era_Leader_Music_4\08 Who Likes to Party	
+	712147997	10 Exotic Toys	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\Exotic Toys - melodicpictures (Yogscast Spin)_4B8CC0C5.wem	712147997.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Industrial_Era_Music\RiseofDatlof_Industrial_Era_Leader_Music_2\10 Exotic Toys	
+	724367684	03 All the Lights in the Sky	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\Area 11 - All The Lights In The Sky_4B8CC0C5.wem	724367684.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Ancient_Era_Music\RiseofDatlof_Ancient_Era_Leader_Music_3\03 All the Lights in the Sky	
+	733956287	01 Gay Activity	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\Gay Activity - Clive Richardson_4B8CC0C5.wem	733956287.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Ancient_Era_Music\RiseofDatlof_Ancient_Era_Leader_Music\01 Gay Activity	
+	771715099	02 Alchemists' Tower	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\Kevin MacLeodAlchemists Tower_4B8CC0C5.wem	771715099.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Ancient_Era_Music\RiseofDatlof_Ancient_Era_Leader_Music_2\02 Alchemists' Tower	
+	887072627	07 Baba Yetu	C:\Users\NerdByFate\Documents\WwiseProjects\RiseofDatlofSFX\.cache\Windows\SFX\Christopher Tin - Baba Yetu (Official Music Video)_4B8CC0C5.wem	887072627.wem	\Interactive Music Hierarchy\Default Work Unit\RiseofDatlof_Music\RiseofDatlof_Medieval_Era_Music\RiseofDatlof_Medieval_Era_Leader_Music_3\07 Baba Yetu	
+
