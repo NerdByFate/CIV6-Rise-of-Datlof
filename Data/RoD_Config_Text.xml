@@ -91,5 +91,80 @@
 		<Row Tag="LOC_PROMOTION_FRIENDLY_COMBAT_DESCRIPTION" Language="en_US">
 			<Text>+6 [ICON_Strength] when fighting in Datlovian territory.</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Remember Datlof.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>The people of Datlof welcome you. We may coexist in peace unless you touch [SIZE_16]My Bit.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Come, bask in the glory of Datlof's nearest city. Be warned though, the people of Datlof stay wary of foreigners -- as they rightly should.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Wow, I didn't expect your city to be so... so shit! Datlof laughs at your shitty city! Hah!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Does this count as map sharing? Pyrion!?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Declaration of fucking friendship?! Yeah, that's really useful! Thank you!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Useless swine, what makes you think the Mighty Datlof would be friends with you? Datlof stands alone!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Please help Datlof, their armies are on the shore![NEWLINE]We admit we're a little bit shit, and we can't fight anymore!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>You fell for that shit?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>The people of Datlof will remember this day, they will remember those who did not help them in the hardest hour -- in the darkest times.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Datlof will hold! Try it, you fuckers! You will prise Datlof from my cold, dead fingers!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>People of Datlof, raise up your swords once more![NEWLINE]To defend the precious motherland, we will go to war!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>People of Datlof, you have served me well, but today -- it is our darkest hour. We must fight to survive![NEWLINE]Fight for your honour and fight for your country! DATLOF WILL HOLD! DATLOF FOREVER!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>People of Datlof, you have served me well, but today -- it is our darkest hour. We must fight to survive![NEWLINE]Fight for your honour and fight for your country! DATLOF WILL HOLD! DATLOF FOREVER!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>The people of Datlof welcome your delegation... I hope you brought gin.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>I don't want your gold, I don't need your gold! I don't. Datlof will not accept your pity! Datlof is a proud nation!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>My people bring gin, moustaches, and tea to your capital. Respond now, or I might take the gin for myself.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Stay the fuck back! Fuck off, all of you!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>God damn you! GOD DAMN YOU! God damn it! It's not over. (Denounces You)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Yeah, that's really useful! Thank you!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>I'm not accepting your fucking deals!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>I have a new plan. Do you want to hear it? It's gin-related.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>No! I refuse peace! Too much has been sacrificed, and lost, by the people of Datlof to give up now.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>I have a new plan. Do you want to hear it? It's gin-related. (Offers Peace)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_LEWIS_BRINDLEY_ANY" Language="en_US">
+			<Text>Stay the fuck back! Fuck off, all of you!</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
