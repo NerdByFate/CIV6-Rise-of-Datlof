@@ -50,6 +50,9 @@
   <UnitUpgrades>
 	<Row Unit="UNIT_GIN_SLINGER" UpgradeUnit="UNIT_CROSSBOWMAN"/>
   </UnitUpgrades>
+  <Unit_BuildingPrereqs>
+	<Row Unit="UNIT_MILITARY_ENGINEER" PrereqBuilding="BUILDING_BREWERY"/>
+  </Unit_BuildingPrereqs>
   <UnitAbilityModifiers>
 	<Row>
 		<UnitAbilityType>XCOM_IGNORE_TERRAIN_COST</UnitAbilityType>
